@@ -1,8 +1,8 @@
 *{
     font-family: 'Edu NSW ACT Foundation', cursive;
+    text-align: center;
 }
 p {
     font-size: 2rem;
     text-transform: capitalize;
-    text-align: center;
 }
