@@ -1,0 +1,21 @@
+.border{
+    border: 3px solid black;
+    text-align: center;
+    margin: .5rem;
+    padding: .5rem;
+}
+#row{
+    display: flex;
+}
+.column{
+    flex: 50%;
+}
+#grid{
+    width: 50%;
+    margin: auto;
+}
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
