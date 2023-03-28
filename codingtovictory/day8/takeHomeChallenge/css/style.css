@@ -1,0 +1,26 @@
+#grid{
+    width: 100%;
+    margin: auto;
+}
+#row{
+    display: flex;
+}
+.column{
+    flex: 100%;
+}
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    border: 4px inset;
+    box-shadow: 5px 10px 8px black;
+    text-align: center;
+    margin: 1.5rem;
+    padding: 3rem;
+}
+body{
+    background-image: linear-gradient(red, yellow, blue);
+    text-shadow: 2px 2px 8px green;
+}
