@@ -2,16 +2,16 @@ header{
     background-color: green;
 }
 
-@media screen and (max-width: 480px)
-{
-    header{
-        background-color: purple;
-    }
-}
-
-@media  screen and (max-width: 768px)
+@media only screen and (max-width: 768px)
 {
     header{
         background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+    header{
+        background-color: purple;
     }
 }
