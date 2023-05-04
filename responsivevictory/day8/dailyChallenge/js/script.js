@@ -1,5 +1,5 @@
-let userName = prompt("What is your name?");
-alert(`Your name is ${userName} and it has ${userName.length} letters.`);
+// let userName = prompt("What is your name?");
+// alert(`Your name is ${userName} and it has ${userName.length} letters.`);
 
 // let favFood = prompt("What is your favorite food?");
 // let favColor = prompt("What is your favorite color?");
