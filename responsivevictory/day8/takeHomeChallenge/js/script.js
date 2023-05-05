@@ -17,5 +17,6 @@
 // alert(`The current year is ${year}`);
 
 let days = 10;
-let newDate = new Date(date.setTime(date.getTime() + days * 86400000));
+let date = new Date();
+let newDate = date.getDate() + days;
 alert(`The current date plus ten days is ${newDate}`);
